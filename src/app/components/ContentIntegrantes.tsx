@@ -21,7 +21,7 @@ export default function ContentIntegrantes() {
                 </Integrante>
                 <Integrante>
                     <h3>Gabriela de Sousa Reis</h3>
-                    <Image src={fotoGabi} alt="Imagem Gabriela" />
+                    <Image src={fotoGabi} alt="Imagem Gabriela" width={380}/>
                     <h3>RM558830</h3>
                 </Integrante>
             </IntegrantesContainer>

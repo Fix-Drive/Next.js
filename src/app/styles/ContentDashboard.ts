@@ -53,8 +53,9 @@ export const ConteudDashboard = styled.div`
 
 export const ImgDashboard = styled.div`
   img {
-    width: 500px;
-    margin-top: 92px;
+    width: 400px;
+    margin-top: 60px;
+    margin-bottom: 50px;
 
     @media (max-width: 667px) {
       width: 150px;

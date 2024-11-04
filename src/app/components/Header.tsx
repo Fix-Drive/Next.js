@@ -14,24 +14,15 @@ export default function Header() {
           <Image src={fixdrive} alt="Logo FixDrive" width={100} height={50} />
         </div>
 
-        <ul className="flex mr-70 items-center justify-between gap-5">
-          <li>
-            <Link className="text-white" href={"/manutencao"}>Manutenção</Link>
-          </li>
-          <li>
-            <Link className="text-white" href={"/consultar"}>Veículos</Link>
-          </li>
-        </ul>
-
         <ButtonLinks id="icons">
           <div>
-            <Link href={"/cadastro-veiculo"}>
-              <Image src={car_icon} alt="Carro" width={30} height={30} />
+            <Link href={"/consulta"}>
+              <Image src={car_icon} alt="Carro" width={70} height={60} />
             </Link>
           </div>
           <div>
             <Link href={"/login"}>
-              <Image src={user_icon} alt="Usuário" width={30} height={30} />
+              <Image src={user_icon} alt="Usuário" width={40} height={45} />
             </Link>
           </div>
         </ButtonLinks>

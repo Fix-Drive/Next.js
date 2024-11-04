@@ -73,8 +73,8 @@ export const NavbarContainer = styled.nav`
 export const ButtonLinks = styled.div`
   display: flex;
   gap: 35px;
-  margin-right: 60px;
-  margin-top: 10px;
+  align-items: center;
+  justify-content: center;
 
   @media (max-width: 768px) {
     display: none; /* Esconder ícones no mobile */

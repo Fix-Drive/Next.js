@@ -38,7 +38,7 @@ export const BannerContainer = styled.section`
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1; // Coloca a imagem atrás do conteúdo
+  z-index: -1; 
 `;
 
 
@@ -74,15 +74,16 @@ export const BannerText = styled.p`
   }
 `;
 
-export const ButtonBanner = styled.div`
-   background-color: #71BCB9;
-   width: 70px;
+export const ButtonBanner = styled.button`
+  background-color: #71BCB9;
+  width: 200px;
   color: #FFF;
   border: none;
   border-radius: 10px;
   padding: 10px;
   font-size: 16px;
   cursor: pointer;
+  text-align: center;
   
   @media(max-width: 667px){
     width: 35px;

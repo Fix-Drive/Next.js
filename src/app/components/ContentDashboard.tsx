@@ -11,7 +11,7 @@ export default function ContentDashboard() {
                     Gerencie sua frota com facilidade e tome decisões informadas sobre manutenção. Cadastre-se agora para começar!</p>
             </ConteudDashboard>
             <ImgDashboard>
-                <Image src={grafico} alt="Gráfico Dashboard" />
+                <Image src={grafico} alt="Gráfico Dashboard"/>
             </ImgDashboard>
         </Section>
     );

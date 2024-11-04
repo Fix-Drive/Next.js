@@ -9,8 +9,8 @@ export default function Banner() {
             <BackgroundImage>
                 <Image 
                 src={carroFundo} 
-                layout="fill" // Preenche o contêiner
-                objectFit="cover" // Cobre o contêiner sem distorcer
+                layout="fill" 
+                objectFit="cover" 
                 alt="Banner background"
                 />
             </BackgroundImage>
@@ -19,8 +19,8 @@ export default function Banner() {
                     <BannerTitle>Mecânico sem Fronteiras</BannerTitle>
                     <BannerText className="description">Conte com um serviço mecânico que une tecnologia e soluções eficientes.</BannerText>
                 </div>
-                <Link href={'/consultar'}>
-                <ButtonBanner>Consultar</ButtonBanner>
+                <Link href={'/consultar'} className="w-10">
+                    <ButtonBanner>Cadastrar</ButtonBanner>
                 </Link>
             </BannerDescription>
         </BannerContainer>
