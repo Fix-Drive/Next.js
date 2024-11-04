@@ -6,6 +6,7 @@ export default function Menu(){
             <ul>
                 <li><Link href={'/'}>Home</Link></li>
                 <li><Link href={'/chatbot'}>Chatbot</Link></li>
+                <li><Link href={'/cadastro-motorista'}>Cadastro-motorista</Link></li>
             </ul>
         </nav>
     )
