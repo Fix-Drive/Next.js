@@ -11,9 +11,7 @@ export default function Navigation() {
                 <Image src={carro} alt="Carro" width={150} height={150} />
             </ImageContainer>
             <SetaContainer>
-                <Link href="/">
-                    <Image src={seta} alt="Voltar" width={30} height={30} />
-                </Link>
+            
             </SetaContainer>
         </NavWrapper>
     );

@@ -44,7 +44,7 @@ export const Input = styled.input`
     border-radius: 8px;
     border: 1px solid #ddd;
     font-size: 16px;
-    width: 100%;
+    width: 200%;
 
     @media (max-width: 991px) {
         font-size: 14px;
