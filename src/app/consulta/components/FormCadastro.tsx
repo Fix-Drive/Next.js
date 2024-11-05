@@ -4,11 +4,11 @@ import { Button, Form, FormContainer, FormGroup, Input, SearchButton } from "../
 import { useRouter } from "next/navigation";
 
 export default function FormCadastro() {
-    const [searchValue, setSearchValue] = useState("eux8543");
-    const [corVeiculo, setCorVeiculo] = useState("VERMELHA");
-    const [anoVeiculo, setAnoVeiculo] = useState("2012");
-    const [marcaVeiculo, setMarcaVeiculo] = useState("CITROEN");
-    const [modeloVeiculo, setModeloVeiculo] = useState("C3");
+    const [searchValue, setSearchValue] = useState("");
+    const [corVeiculo, setCorVeiculo] = useState("");
+    const [anoVeiculo, setAnoVeiculo] = useState("");
+    const [marcaVeiculo, setMarcaVeiculo] = useState("");
+    const [modeloVeiculo, setModeloVeiculo] = useState("");
     const router = useRouter();
 
     const handleSearch = async (e: React.FormEvent<HTMLFormElement>) => {
