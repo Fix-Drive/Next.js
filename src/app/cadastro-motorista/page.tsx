@@ -1,3 +1,4 @@
+"use client"
 import Header from "./components/Header";
 import MotoristaForm from "./components/MotoristaForm";
 import Navigation from "./components/Navigation";
