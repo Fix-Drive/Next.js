@@ -46,6 +46,8 @@ export default function FormCadastro() {
         router.push(`/veiculos?${params}`);
     };
 
+    
+
     return (
         <FormContainer>
             <Form onSubmit={handleSearch}>

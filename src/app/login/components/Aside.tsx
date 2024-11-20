@@ -14,7 +14,7 @@ export default function Aside() {
             
            
                 <Button name="cadastrar">
-                    <Link href={'/cadastro'}>Cadastre-se</Link>
+                    <Link href={'/cadastro-usuario'}>Cadastre-se</Link>
                 </Button>
            
 
